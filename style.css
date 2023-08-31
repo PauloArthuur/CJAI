@@ -1,0 +1,45 @@
+body{
+    background-color: #1763176e;
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 3px 3px 4px #0a0a0a96;
+}
+input{
+    margin-top: 20px;
+}
+#botao{
+    padding: 10px;
+    background-color: #1763176e;
+    border-radius: 20px;
+    color: black;
+}
+
+#ano{
+    background-color: #1763176e;
+    border: black 1px solid;
+    height: 30px;
+    text-align: center;
+    font: 16pt arial 
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+img#photo {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
